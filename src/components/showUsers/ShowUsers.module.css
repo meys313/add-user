@@ -1,0 +1,30 @@
+.showUsers{
+    width: 40%;
+}
+.showUsers p {
+    margin-bottom: 15px;
+    border:1px solid #D7D7D7;
+    padding: 5px;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+.showUsers span{
+    /*background-color: rgba(1,46,122, .7);*/
+    padding: 10px;
+    color:#000;
+    font-weight: bold;
+    /*margin: 0 5px 0 5px;*/
+}
+@media (max-width: 800px) {
+    .showUsers{
+        width: 90%;
+
+    }
+
+    .showUsers p{
+       display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
